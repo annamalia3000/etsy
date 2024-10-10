@@ -6,3 +6,27 @@
     -webkit-transition: opacity 300ms ease;
     transition: opacity 300ms ease;
 }
+
+@media only screen and (min-width:480px) {
+    .item-list {
+      column-count:2;
+    }
+  }
+  
+  @media only screen and (min-width:700px) {
+    .item-list {
+      column-count:3;
+    }
+  }
+  
+  @media only screen and (min-width:900px) {
+    .item-list {
+      column-count:4;
+    }
+  }
+  
+  @media only screen and (min-width:1200px) {
+    .item-list {
+      column-count:5;
+    }
+  }

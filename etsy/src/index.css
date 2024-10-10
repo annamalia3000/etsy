@@ -89,39 +89,3 @@ top:5px;
   top:-1px;
 }
 
-/* Quantity Level */
-
-[class^="level-"] {
-  color:#fff;
-}
-
-.level-low { background-color:#a94442; }
-.level-medium { background-color:#8a6d3b; }
-.level-high { background-color:#3c763d; }
-
-
-/* Media Queries */
-
-@media only screen and (min-width:480px) {
-  .item-list {
-    column-count:2;
-  }
-}
-
-@media only screen and (min-width:700px) {
-  .item-list {
-    column-count:3;
-  }
-}
-
-@media only screen and (min-width:900px) {
-  .item-list {
-    column-count:4;
-  }
-}
-
-@media only screen and (min-width:1200px) {
-  .item-list {
-    column-count:5;
-  }
-}

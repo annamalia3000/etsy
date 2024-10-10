@@ -6,6 +6,10 @@ type ItemProps = {
 }
 
 export const Item: React.FC<ItemProps> = ({ item }) => {
+
+    if (!item || !item.title || !item.MainImage) {
+        return <div>Loading...</div>; 
+    }
     const {  url, MainImage, title, currency_code, price, quantity } = item;
 
     const truncatedTitle = title.length > 50 ? `${title.slice(0, 50)}…` : title;

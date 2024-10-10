@@ -50,3 +50,11 @@
   position:absolute;
   right:1rem;
 }
+
+[class^="level-"] {
+  color:#fff;
+}
+
+.level-low { background-color:#a94442; }
+.level-medium { background-color:#8a6d3b; }
+.level-high { background-color:#3c763d; }
